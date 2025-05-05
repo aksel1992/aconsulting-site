@@ -1,22 +1,39 @@
-
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Andersson Consulting</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="description" content="Andersson Consulting i Malmö AB – Mötesbokning, KAM och SEO för företag som vill växa smartare." />
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; background: #fff; }
-    header { background: #f26522; color: white; padding: 40px 20px; text-align: center; }
-    header h1 { margin: 0; font-size: 2.5em; }
-    nav { background: #222; color: white; display: flex; justify-content: center; gap: 20px; padding: 10px; }
-    nav a { color: white; text-decoration: none; font-weight: bold; }
-    section { padding: 40px 20px; max-width: 1000px; margin: 0 auto; }
-    h2 { color: #f26522; }
-    footer { background: #eee; padding: 20px; text-align: center; font-size: 0.9em; }
-    .logo { font-size: 2em; font-weight: bold; color: #f26522; }
-    .contact-form input, .contact-form textarea { width: 100%; padding: 10px; margin: 10px 0; }
-    .contact-form button { background: #f26522; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; color: #222; background: #fefefe; line-height: 1.6; }
+    header { background: #1f3b73; color: white; padding: 60px 20px; text-align: center; }
+    header .logo { font-size: 3em; font-weight: bold; margin-bottom: 10px; }
+    header h1 { font-size: 2.2em; margin-bottom: 10px; }
+    header p { font-size: 1.1em; }
+
+    nav { background: #fff; display: flex; justify-content: center; gap: 30px; padding: 15px 0; box-shadow: 0 1px 5px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 10; }
+    nav a { color: #1f3b73; text-decoration: none; font-weight: bold; font-size: 1em; }
+    nav a:hover { text-decoration: underline; }
+
+    main { max-width: 900px; margin: auto; padding: 40px 20px; }
+    section { margin-bottom: 60px; }
+    h2 { color: #1f3b73; font-size: 1.6em; margin-bottom: 20px; }
+    p { margin-bottom: 20px; }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;
+    }
+    .contact-form button {
+      background: #1f3b73; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer;
+    }
+    .contact-form button:hover {
+      background: #182e5a;
+    }
+
+    footer { background: #f4f4f4; padding: 30px 20px; text-align: center; font-size: 0.9em; color: #666; }
   </style>
 </head>
 <body>
@@ -32,31 +49,61 @@
     <a href="#kontakt">Kontakt</a>
   </nav>
 
-  <section id="tjanster">
-    <h2>Tjänster</h2>
-    <p><strong>Mötesbokning:</strong> Vi bokar relevanta möten med rätt beslutsfattare. Effektivt, personligt och med fingertoppskänsla.</p>
-    <p><strong>Key Account Management:</strong> Vi hjälper dig att utveckla och vårda dina viktigaste kundrelationer – så att varje affär blir en investering för framtiden.</p>
-    <p><strong>SEO & Google Ads:</strong> Få fler rätta besökare – och kunder – via Google. Vi optimerar både organiskt och betalt för bästa effekt.</p>
-  </section>
+  <main>
+    <section id="tjanster">
+      <h2>Tjänster</h2>
 
-  <section id="om">
-    <h2>Om Andersson Consulting</h2>
-    <p>Jag heter Aksel Andersson och driver Andersson Consulting i Malmö AB. Med lång erfarenhet av försäljning, kundrelationer och digital marknadsföring hjälper jag företag att växa smartare – och må bättre på vägen dit.</p>
-  </section>
+      <p><strong>Mötesbokning – kvalificerade affärsmöten som leder till resultat</strong><br>
+      Jag hjälper företag att fylla kalendern med rätt typ av möten. Det handlar inte om volym, utan om kvalitet. Varje samtal är riktat, relevant och anpassat till målgruppen.<br>
+      Erfarenhet inom B2B-tjänster, SaaS, industri samt konsumenttjänster med högt förtroendebehov.<br>
+      ✅ Anpassat efter din bransch och affär<br>
+      ✅ Du får relevanta möten – inga tomma leads<br>
+      ✅ Perfekt för dig som vill sälja, inte jaga</p>
 
-  <section id="kontakt">
-    <h2>Kontakt</h2>
-    <form class="contact-form">
-      <input type="text" placeholder="Ditt namn" required>
-      <input type="email" placeholder="Din e-post" required>
-      <textarea rows="5" placeholder="Ditt meddelande"></textarea>
-      <button type="submit">Skicka</button>
-    </form>
-    <p>E-post: aksel@aksc.se<br>Telefon: +541128580811</p>
-  </section>
+      <p><strong>Key Account Management – hyr in mig som KAM-konsult</strong><br>
+      Som inhyrd Key Account Manager hjälper jag företag att utveckla sina viktigaste kundrelationer – strategiskt och utan att du behöver anställa.<br>
+      Jag tar ansvar för kundanalyser, behovsfångst, dialog och tillväxtplaner.<br>
+      Erfarenhet inom tech, telekom, reklam, B2B och industri.<br>
+      ✅ Flexibelt – per projekt eller löpande<br>
+      ✅ Redo att kliva in direkt – ingen onboarding<br>
+      ✅ Erfarenhet av komplex B2B och nyckelkundsansvar</p>
+
+      <p><strong>SEO & Google Ads – få fler kunder som faktiskt letar efter dig</strong><br>
+      Jag kombinerar sökmotoroptimering med smart annonsering – så att du syns exakt när dina kunder söker. Både organisk synlighet och konverteringsdriven annonsering.<br>
+      ✅ Teknisk SEO & innehållsoptimering<br>
+      ✅ Google Ads-kampanjer med resultatfokus<br>
+      ✅ Löpande spårning & datadriven uppföljning</p>
+    </section>
+
+    <section id="om">
+      <h2>Om Andersson Consulting</h2>
+      <p>Jag heter <strong>Aksel Andersson</strong> och driver Andersson Consulting i Malmö AB.</p>
+      <p>Jag hjälper företag att växa genom smart försäljning, starka kundrelationer och digital synlighet. Det är jag som personligen utför uppdragen – vilket ger dig en direkt, engagerad kontakt och hög flexibilitet.</p>
+      <p>Samtidigt arbetar jag strukturerat och resultatorienterat – med tempo, ansvar och leveranssäkerhet som hos en större byrå. När behovet finns, samarbetar jag med utvalda experter för att utöka kapacitet och kompetens.</p>
+      <ul>
+        <li>🔹 Direktkontakt – du vet alltid vem du jobbar med</li>
+        <li>🔹 Hög produktivitet per timme</li>
+        <li>🔹 Smart struktur, mätbara resultat</li>
+        <li>🔹 Möjlighet att växa uppdraget vid behov</li>
+      </ul>
+    </section>
+
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Ditt namn" required />
+        <input type="email" placeholder="Din e-post" required />
+        <textarea rows="5" placeholder="Ditt meddelande"></textarea>
+        <button type="submit">Skicka</button>
+      </form>
+      <p>E-post: <a href="mailto:aksel@aksc.se">aksel@aksc.se</a><br>
+         Telefon: +46 72 279 08 65<br>
+         Domän: <a href="https://www.aconsulting.se">www.aconsulting.se</a></p>
+    </section>
+  </main>
 
   <footer>
-    &copy; 2025 Andersson Consulting i Malmö AB. Alla rättigheter förbehållna.
+    &copy; 2025 Andersson Consulting i Malmö AB – Alla rättigheter förbehållna.
   </footer>
 </body>
 </html>
